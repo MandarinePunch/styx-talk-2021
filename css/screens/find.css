@@ -64,10 +64,8 @@
   font-size: 14px;
 }
 .open-post__members .divider {
-  width: 2px;
   height: 13px;
   margin: 0px 5px;
-  background-color: rgba(0, 0, 0, 0.3);
 }
 .open-post__members-status {
   color: #ff63c3;
