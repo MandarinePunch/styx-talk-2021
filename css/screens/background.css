@@ -1,0 +1,13 @@
+.background-img {
+  position: relative;
+}
+.background-img::before {
+  content: "";
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(https://i.redd.it/0o8m6uy6tup51.png);
+  position: absolute;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}

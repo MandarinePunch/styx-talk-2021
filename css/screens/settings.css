@@ -1,0 +1,26 @@
+.settings__setting {
+  padding: 25px 0;
+  border-bottom: 1px solid rgba(240, 240, 240, 0.1);
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.settings__setting i {
+  opacity: 0.8;
+  margin-right: 20px;
+  font-size: 22;
+}
+.settings__setting-column:last-child {
+  color: var(--gray);
+}
+.settings-background {
+  background-color: #042619;
+}
+.settings__setting:nth-child(3) {
+  padding-bottom: 50px;
+  border-bottom: 1px solid rgba(240, 240, 240, 0.4);
+}
+.settings__setting:nth-child(4) {
+  padding-top: 50px;
+}

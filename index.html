@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="shortcut icon" href="image/hades.png" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Styx Talk</title>
+  </head>
+  <body class="background-login">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>19:41</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to Styx Talk</h1>
+      <p class="welcome-header__text">
+        If you have a Styx Account, log in with your email or phone number.
+      </p>
+    </header>
+
+    <form action="friends.html" method="get" id="login-form">
+      <input
+        required
+        name="username"
+        type="text"
+        placeholder="Email or phone number"
+        style="color: rgb(240, 240, 240, 1)"
+      />
+      <input
+        required
+        name="password"
+        type="password"
+        placeholder="Password"
+        style="color: rgb(240, 240, 240, 1)"
+      />
+      <input type="submit" value="Log In" />
+      <a href="#">Find Styx Account or Password</a>
+    </form>
+    <div id="no-mobile">
+      <span>your screen is too big :(</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
