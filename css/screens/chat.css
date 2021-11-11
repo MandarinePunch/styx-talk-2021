@@ -141,7 +141,7 @@
   position: relative;
 }
 .reply i {
-  color: var(--gray);
+  color: rgba(0, 0, 0, 0.5);
 }
 .reply input {
   padding: 10px;

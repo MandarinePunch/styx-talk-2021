@@ -2,6 +2,11 @@
   justify-content: space-between;
   margin-bottom: 30px;
 }
+.user-component:hover {
+  background-color: rgba(29, 26, 26, 0.7);
+  border-radius: 17px;
+  cursor: pointer;
+}
 .user-component__column img {
   border: 2px solid #2d3b05;
 }
